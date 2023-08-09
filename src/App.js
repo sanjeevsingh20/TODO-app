@@ -61,6 +61,11 @@ function App() {
                 path="/update_password"
                 element={Token ? <Front /> : <Reset />}
               ></Route>
+              <Route
+                exact
+                path="/TODO-app"
+                element={Token ? <Front /> : <About />}
+              ></Route>
               <Route path="*" element={<Notfound />}></Route>
             </Routes>
             <Footer />
