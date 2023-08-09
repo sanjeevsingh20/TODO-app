@@ -51,7 +51,7 @@ export default function Login() {
         //     setalert({msg:null,type:""})
         // }, 3000);
         history("/home");
-        document.location.reload();
+        // document.location.reload();
       } else {
         setalert({ msg: data.mag, type: "danger" });
         setTimeout(() => {
