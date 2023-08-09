@@ -57,7 +57,7 @@ function Signup() {
         const data = await response.json();
 
         if (data.success) {
-          localStorage.setItem("Token", data.authtoken);
+          // localStorage.setItem("Token", data.authtoken);
           Navigate("/login");
         } else {
           setalert({ msg: data.Error, type: "danger" });
