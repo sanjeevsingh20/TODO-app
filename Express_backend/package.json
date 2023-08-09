@@ -2,6 +2,7 @@
   "name": "baba_books",
   "version": "1.0.0",
   "proxy": "http://localhost:5000",
+  "homepage":"https://sanjeevsingh20.github.io/"
   "description": "baba_books-Your personal book store",
   "main": "index.js",
   "scripts": {
