@@ -63,7 +63,7 @@ function App() {
               ></Route>
               <Route
                 exact
-                path="/TODO-app"
+                path="/TODO-app/"
                 element={Token ? <Front /> : <About />}
               ></Route>
               <Route path="*" element={<Notfound />}></Route>
